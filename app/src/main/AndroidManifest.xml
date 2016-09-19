@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.home.deezertest">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:name=".MyApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.SearchActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/action_search"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <!-- User Home activity -->
+
+        <!-- User Login activity -->
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait"/>
+
+        <!-- Artist's albums activity -->
+        <activity
+            android:name=".activity.ArtistAlbumActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <!-- Albums activity -->
+        <activity
+            android:name=".activity.AlbumActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1E2629</color>
+    <color name="colorPrimaryDark">#152625</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorDark">#5E2639</color>
+    <color name="player_background">#Fccc</color>
+    <color name="colorWindowBackground">#1E2629</color>
+    <color name="colorGray">#888</color>
+    <color name="colorWhite">#FFF</color>
+</resources>

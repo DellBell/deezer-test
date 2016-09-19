@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">deezerTest</string>
+    <string name="activity_home">%1$s - Home</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Login</string>
+    <string name="deezer_error_during_login">Deezer error during login</string>
+    <string name="login_cancelled">Login cancelled</string>
+    <string name="no_results">No results found</string>
+    <string name="empty" />
+    <string name="default_duration">0:00</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="album_artist_name">Artist Name</string>
+    <string name="album_title">Medium Text</string>
+    <string name="ui_custom_track_list">Play Song</string>
+    <string name="albumVolum">Volum</string>
+    <string name="trackArtistName">Artist name</string>
+    <string name="trackPosition">1.</string>
+    <string name="trackDuration">00:00</string>
+    <string name="toolbar_album_name">Album Name</string>
+    <string name="toolbar_artist_name">Artist Name</string>
+</resources>
