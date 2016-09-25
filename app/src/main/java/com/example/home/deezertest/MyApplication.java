@@ -8,7 +8,7 @@ import android.content.Context;
  */
 public class MyApplication extends Application {
 
-    public static final String DEEZER_APP_ID = "191262";
+    public static final String DEEZER_APP_ID = "";
     private static MyApplication sInstance;
 
 
